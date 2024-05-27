@@ -15,7 +15,7 @@ def get_requirements(file_path : str) -> List[str]:
 
 setup(
     name = 'end-to-end-DS',
-    version = '3.11.9',
+    version = '3.8.0',
     author = 'Krishi Patel',
     packages = find_packages(),
     install_requires = get_requirements(REQUIREMENTS_PATH)
