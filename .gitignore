@@ -2,3 +2,5 @@
 venv/
 end_to_end_DS.egg-info/
 notebook/data/
+artifacts/
+logs/
