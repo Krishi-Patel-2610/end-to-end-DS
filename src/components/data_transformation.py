@@ -15,6 +15,9 @@ from src.logger import logging
 import os
 
 from src.utils import save_object
+from src.components.model_trainer import ModelTrainer
+from src.components.model_trainer import ModelTrainerConfig
+
 
 TRAIN_PATH = "artifacts/train.csv"
 TEST_PATH = "artifacts/test.csv"
@@ -130,4 +133,8 @@ class DataTransformation:
 
 if __name__ == "__main__":
     obj = DataTransformation()
-    obj.initiate_data_transformation(TRAIN_PATH, TEST_PATH)
+    train_arr, test_arr, _ = obj.initiate_data_transformation(TRAIN_PATH, TEST_PATH)
+
+    obj2 = ModelTrainer()
+    print(obj2.initiate_model_trainer(train_arr, test_arr))
+
