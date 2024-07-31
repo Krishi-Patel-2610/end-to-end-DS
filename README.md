@@ -19,12 +19,32 @@ This repository contains an end-to-end data science project focused on analyzing
 8. [License](#license)
 9. [Contact](#contact)
 
+## Project Structure
+```bash
+student-performance/
+│
+├── artifacts/ # Contains all generated artifacts like datasets, models, etc.
+│ ├── data/
+│ ├── models/
+│
+├── src/ # Source code for the project
+│ ├── features/
+│ ├── models/
+│ ├── utils/
+│ ├── init.py
+│ ├── main.py
+│ ├── custom_exceptions.py
+│ └── logger.py
+│
+├── setup.py # Installation file
+├── requirements.txt # Required packages and dependencies
+└── README.md # Project documentation
+```
 ## Features
 
 - **Custom Exception Handling**: Custom exception classes to manage errors effectively.
 - **Logging**: Detailed logging for better traceability and debugging.
 - **Modular Code Structure**: Clean and modular structure for easy navigation and understanding.
-- **Automated Tests**: Unit tests for ensuring code reliability and functionality.
 - **Data Pipelines**: Well-defined pipelines for data processing, feature engineering, and model training.
 
 ## Setup Instructions
