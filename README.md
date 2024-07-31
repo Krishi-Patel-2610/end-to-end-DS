@@ -15,9 +15,8 @@ This repository contains an end-to-end data science project focused on analyzing
 4. [Data](#data)
 5. [Modeling](#modeling)
 6. [Results](#results)
-7. [Contributing](#contributing)
-8. [License](#license)
-9. [Contact](#contact)
+7. [License](#license)
+8. [Contact](#contact)
 
 ## Project Structure
 ```bash
